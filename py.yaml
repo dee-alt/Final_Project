@@ -5,7 +5,7 @@
   tasks:
    - name: Copy file
      copy:
-       src: /root/portopen.py
+       src: portopen.py
        dest: /home/lynis/test.py 
    - name: Executing the PYTHON SCRIPT
      command: /home/lynis/test.py 
